@@ -16,6 +16,7 @@ This project implements a real-time data pipeline using **Amazon MSK (Managed St
 
 ## **MSK Cluster Architecture**
 The MSK cluster is deployed in two availability zones with brokers in private subnets, ensuring high availability and fault tolerance. Public subnets are used only for the NAT Gateway and bastion host, ensuring that sensitive services remain private and secure.
+![](https://github.com/vighneshbuddhivant/Real-Time-Data-Pipeline-with-Amazon-MSK-and-AWS-Lambda-consumer-side/blob/d6b0fc62f59c70bd0b4541f0229ab0deb6bdb161/msk-cluster.png)
 
 ## **Tools and Technologies Used**
 - **Amazon MSK (Managed Streaming for Apache Kafka)**: For streaming data events.
