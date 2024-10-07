@@ -11,7 +11,7 @@ This project implements a real-time data pipeline using **Amazon MSK (Managed St
 
 
 ## **Architecture**
-![Architecture Diagram](./architecture.png)
+![Architecture Diagram](https://github.com/vighneshbuddhivant/Real-Time-Data-Pipeline-with-Amazon-MSK-and-AWS-Lambda-consumer-side/blob/8f8ce83a5714a467a78f84744758f6ec5f23550b/msk-lambda-arch.png)
 
 
 ## **MSK Cluster Architecture**
