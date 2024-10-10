@@ -1,4 +1,4 @@
-# **Real-Time Data Pipeline with Amazon MSK and AWS Lambda Consumer Side**
+# **Real-Time Data Pipeline with Amazon MSK and AWS Lambda Consumer Side** 
 
 ## **Project Overview**
 This project implements a real-time data pipeline using **Amazon MSK (Managed Streaming for Apache Kafka)** as the event source for **AWS Lambda**. The data flows through the MSK cluster and triggers a Lambda function that processes incoming messages. After processing, the data is stored in **Amazon S3**, **Amazon RDS**, and **Amazon DynamoDB**. The system is designed to be highly available and scalable, ensuring secure communication between services by utilizing AWS best practices such as VPCs, subnets, NAT gateways, and private networking.
